@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Código Secreto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="" id="formulario">
+        <label for="input-texto">SOLO LETRAS MINÚSCULAS, SIN ACENTO</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto"  placeholder="Ingrese el texto aqui">
+        
+        <input class="btn" type="submit" value="Encriptar!" id="btn-encriptar">
+        <input class="btn" type="submit" value="Desencriptar!" id="btn-desencriptar">
+      
+      </form>
+    </section>
+  
+    <section class="msg box alinear">
+      <label for="text-input">MENSAJE ENCRIPTADO:</label>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
+    </section>
+  </main>
+  <footer class="footer">Realizado por Marcial Emilio Torres</footer>
+  <script src="js/script.js"></script>
+  <script src="js/desencriptar.js"></script>
+  <script src="js/copiar.js"></script>
+  <script src="js/encriptar.js"></script>
+</body>
+</html>
